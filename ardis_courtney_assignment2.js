@@ -1,1 +1,1 @@
-alert("Made a change");
+alert("JavaScript works!");
