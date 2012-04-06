@@ -12,6 +12,8 @@ code in advance. I didn't manage time at all this week as I thought
 I could and wish I was able to. I am definitely going to use the extra week 
 we have to work on Project 3 as well as Project 4 in hopes to succeed and 
 take knowledge from this course.
+
+Also, I can't seem to get anything to display. I will go back through the videos.
 */
 
 var shipNeeds = ["Weapons", "Structure", "Supplies"];
@@ -20,15 +22,15 @@ var ready = true;
 
 var checkShip = function(itemName) {
 
-var isReady = function () {
-	if (ready != false) {
-		message = (" is ready");
-		}
-	else {
-		message = (" is not ready");
-		};
-	return message;
-}	
+	var isReady = function (yesReady, notReady) {
+		if (yesready != false) && (notReady === true) {
+			message = (" is ready");
+			}
+		else {
+			message = (" is not ready");
+			};
+		return message;
+	}	
 	console.log("Check " + itemName + 
 		"to see if it" + isReady);
 };
@@ -40,8 +42,13 @@ var checkAllShip = function () {
 	}
 };
 
+checkAllShip();
 
-/*		
+/*	
+*************************************************
+* More code I am confused on how to get to work *
+*************************************************
+
 //attempt at a for loop
 	for (var itemName = 0;  itemName < thisItemName; itemName--) {
 		console.log(itemName + ready + "to attack Earth!");
